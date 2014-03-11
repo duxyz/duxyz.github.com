@@ -5,4 +5,4 @@ title: "Hello world"
 tags : [hello-world]
 ---
 {% include JB/setup %}
-TUT
+TUT。
