@@ -8,8 +8,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : NULL
+tagline: NULL
 author :
   name : xyz
   email : xuyinzhan@gmail.com
@@ -80,7 +80,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : duxyz
     livefyre :
       site_id : 123
     intensedebate :
