@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script type="text/javascript">
   var pkBaseURL = (("https:" == document.location.protocol) ? "https://{{ site.JB.analytics.piwik.baseURL }}/" : "http://{{ site.JB.analytics.piwik.baseURL }}/");
   document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
@@ -7,4 +8,15 @@
     piwikTracker.trackPageView();
     piwikTracker.enableLinkTracking();
   } catch( err ) {}
+=======
+<script type="text/javascript">
+  var pkBaseURL = (("https:" == document.location.protocol) ? "https://{{ site.JB.analytics.piwik.baseURL }}/" : "http://{{ site.JB.analytics.piwik.baseURL }}/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+  try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", {{ site.JB.analytics.piwik.idsite }});
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+  } catch( err ) {}
+>>>>>>> 6c4bbd9f6e996205ac1d6e6d2682b454a450bcda
 </script><noscript><p><img src="http://{{ site.JB.analytics.piwik.baseURL }}/piwik.php?idsite={{ site.JB.analytics.piwik.idsite }}" style="border:0" alt="" /></p></noscript>
