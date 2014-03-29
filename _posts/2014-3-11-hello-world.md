@@ -6,7 +6,7 @@ tags : [hello-world]
 ---
 {% include JB/setup %}
 test...
-$$f(x)=f(a)+\frac{f'(a)}{1!}(x-a)+\frac{f^{2}(a)}{2!}(x-a)^{2}+\ldots + \frac{f^{(n)}(a)}{n!}(x-a)^{n}+R_{n}(x)$$
+$$f(x)=f(a)+\frac{f'(a)}{1!}(x-a)+\frac{f^{(2)}(a)}{2!}(x-a)^{2}+\ldots + \frac{f^{(n)}(a)}{n!}(x-a)^{n}+R_{n}(x)$$
 $$f(x)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(w)e^{iwt}dw$$
 $$(\sum_{k=1}^{n}a_{k}b_{k})^{2}\leq (\sum_{k=1}^{n}a_{k}^{2})(\sum_{k=1}^{n}b_{k}^{2})$$
 
