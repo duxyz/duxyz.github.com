@@ -14,7 +14,16 @@ tags : [math]
 
 这个考虑\\(\varphi(k)\\)与\\(\varphi(nk)\\)的倍数关系就能推出来了。。。
 
-那么两边求和可以得$$S(n,m)=\sum_{d|n}\varphi(\frac{n}{d})S(d,\lfloor \frac{m}{d} \rfloor)$$
+那么两边求和可以得
+
+
+\begin{equation}
+\begin{split} 
+S(n,m)&=\sum_{k=1}^{m}\sum_{d|(n,k)}\varphi(\frac{n}{d})\varphi(k)\\\
+&=\sum_{d|n}\varphi(\frac{n}{d})\sum_{k=1}^{\lfloor \frac{m}{d} \rfloor} \varphi(dk)\\\
+&=\sum_{d|n}\varphi(\frac{n}{d})S(d,\lfloor \frac{m}{d} \rfloor)\\\
+\end{split} 
+\end{equation}
 
 对于\\(\mu(n)=0\\)的情况，找到最大的那个\\( k|n\\),使\\(|\mu(k)|=1\\)，那么\\(S(n,m)=\frac{nS(k,m)}{k}\\)
 
